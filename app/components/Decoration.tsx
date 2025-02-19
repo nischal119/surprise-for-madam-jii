@@ -31,7 +31,7 @@ export default function Decoration({ type }: DecorationProps) {
   return (
     <div className="mb-8 text-center">
       <h2 className="text-4xl font-bold mb-4 text-purple-800">
-        Let's add some {currentDecoration.name}!
+        Let&apos;s add some {currentDecoration.name}!
       </h2>
       <div className="relative w-full h-[400px]">
         <motion.div
