@@ -33,7 +33,7 @@ const Heart = ({
 );
 
 export default function FloatingHearts() {
-  const [hearts, setHearts] = useState<JSX.Element[]>([]);
+  const [hearts, setHearts] = useState<React.ReactNode>([]);
 
   useEffect(() => {
     const newHearts = Array.from({ length: 20 }, (_, i) => (

@@ -41,7 +41,7 @@ const ConfettiPiece = ({
 };
 
 export default function Confetti() {
-  const [confetti, setConfetti] = useState<JSX.Element[]>([]);
+  const [confetti, setConfetti] = useState<React.ReactNode>([]);
 
   useEffect(() => {
     const colors = [
