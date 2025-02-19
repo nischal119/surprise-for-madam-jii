@@ -1,4 +1,5 @@
 "use client";
+import { useEffect } from "react";
 
 interface LightsControlProps {
   setBackgroundColor: (color: string) => void;
@@ -7,7 +8,9 @@ interface LightsControlProps {
 export default function LightsControl({
   setBackgroundColor,
 }: LightsControlProps) {
-  setBackgroundColor("bg-pink-200");
+  useEffect(() => {
+    setBackgroundColor("bg-pink-200");
+  }, [setBackgroundColor]); // Runs only once when the component mounts
 
   return (
     <div className="mb-8 text-center">

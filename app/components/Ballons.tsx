@@ -35,8 +35,7 @@ const Balloon = ({ color }: { color: string }) => {
 };
 
 export default function Balloons() {
-  const [balloons, setBalloons] = useState<JSX.Element[]>([]);
-
+  const [balloons, setBalloons] = useState<React.ReactNode>([]);
   useEffect(() => {
     const colors = [
       "#ff0000",
