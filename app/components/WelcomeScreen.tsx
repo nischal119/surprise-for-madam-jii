@@ -20,7 +20,7 @@ export default function WelcomeScreen({ setCurrentStep }: WelcomeScreenProps) {
   return (
     <div className="text-center">
       <h1 className="text-4xl font-bold mb-8 text-blue-500 animate-pulse">
-        It's your special day!
+        It&apos;s your special day!
       </h1>
       <p className="text-xl mb-8 text-pink-400">
         Do you want to see what I made for you?

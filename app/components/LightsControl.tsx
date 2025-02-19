@@ -12,7 +12,7 @@ export default function LightsControl({
   return (
     <div className="mb-8 text-center">
       <h2 className="text-4xl font-bold mb-4 text-blue-400">
-        Let's set the mood!
+        Let&apos;s set the mood!
       </h2>
       <p className="mb-4 text-purple-400">
         The lights are now on, making it festive!
